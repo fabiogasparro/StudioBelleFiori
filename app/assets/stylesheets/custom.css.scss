@@ -1,0 +1,34 @@
+$navbarBackground: #571227;
+$navbarBackgroundHighlight: #571227;
+
+//* mixins, variables, etc. */
+$grayMediumLight: #eaeaea;
+
+@import "bootstrap";
+
+.nav {
+  font-size: 25px;
+  top:80px;
+}
+
+#social-networks {
+  padding-top: 25px;
+}
+
+#conteudo {
+  padding-top:250px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px solid #caada3;
+  color: #ab8992;
+}
+
+.hero-unit {
+  background-color: #caada3;
+  font-color: #571227;
+}

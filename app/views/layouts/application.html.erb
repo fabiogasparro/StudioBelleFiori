@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>StudioBelleFiori</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+	  <title>Studio Belle Fiori - Cabelo &amp; Estética</title>
+	  <%= stylesheet_link_tag    "application", :media => "all" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+		<%= render 'layouts/shim' %>
 
-<%= yield %>
-
-</body>
+	</head>
+	<body>
+		<div class="container">
+			<%= render 'layouts/header' %>
+		</div>
+		<div class="container" id="conteudo">
+			<%= yield %>
+			<%= render 'layouts/footer' %>
+		</div>
+	</body>
 </html>
