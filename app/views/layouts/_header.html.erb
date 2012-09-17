@@ -1,23 +1,27 @@
 <header class="navbar">
 	<div class="navbar-inner">
-		<div class="container">
-			<div class="brand">
-				<%= link_to image_tag("studiobellefiori3.jpg", alt: "Studio Belle Fiori"), '#', id: "logo" %>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="brand span4">
+					<%= link_to image_tag("studiobellefiori3.jpg", alt: "Studio Belle Fiori"), '#', id: "logo" %>
+				</div>
+				<div class="span8 container-fluid">
+					<div class="pull-right social-networks">
+						<%= link_to image_tag("facebook_small.png", alt: "Facebook", id:"facebook_link"), 'http://www.facebook.com/' %>
+						<%= link_to image_tag("twitter_small.png", alt: "Twitter", id:"twitter_link"), 'http://www.twitter.com/' %>
+						<%= link_to image_tag("youtube_small.png", alt: "YouTube", id:"youtube_link"), 'http://www.youtube.com/' %>
+					</div>
+					<nav class="pull-right">
+						<ul class="nav pull-right">
+							<li><%= link_to "salão", '#' %></li>
+							<li><%= link_to "looks", '#' %></li>
+							<li><%= link_to "estética", '#' %></li>
+							<li><%= link_to "noivas", '#' %></li>
+							<li><%= link_to "contato", '#' %></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<div class="pull-right" id="social-networks">
-				<%= link_to image_tag("facebook_small.png", alt: "Facebook", id:"facebook_link"), 'http://www.facebook.com/' %>
-				<%= link_to image_tag("twitter_small.png", alt: "Twitter", id:"twitter_link"), 'http://www.twitter.com/' %>
-				<%= link_to image_tag("youtube_small.png", alt: "YouTube", id:"youtube_link"), 'http://www.youtube.com/' %>
-			</div>
-			<nav id="menu">
-				<ul class="nav pull-right">
-					<li><%= link_to "salão", '#' %></li>
-					<li><%= link_to "looks", '#' %></li>
-					<li><%= link_to "estética", '#' %></li>
-					<li><%= link_to "noivas", '#' %></li>
-					<li><%= link_to "contato", '#' %></li>
-				</ul>
-			</nav>
 		</div>
 	</div>
 </header>

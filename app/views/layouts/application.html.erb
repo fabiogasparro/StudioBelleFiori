@@ -8,12 +8,10 @@
 		<%= render 'layouts/shim' %>
 	</head>
 	<body>
-		<script src="/assets/javascripts/social-networks-links"></script>
-		<script type="text/javascript">
-		$(function(){
-		   $('.carousel').carousel();
-		});
-		</script>
+		<%= javascript_include_tag 'bootstrap-carousel.js' %>
+		<%= javascript_include_tag 'bootstrap-transition.js' %>
+		<%= javascript_include_tag 'social-networks-links.js' %>
+		<%= javascript_include_tag 'carousel.js' %>
 		<div class="container">
 			<%= render 'layouts/header' %>
 		</div>
