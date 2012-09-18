@@ -8,6 +8,7 @@ $navbarBackgroundHighlight: #571227;
 
 @import "bootstrap";
 
+/* Bootstrap Customizations */
 .hero-unit {
   background-color: #fbb6af;
   font-color: #571227;
@@ -15,7 +16,7 @@ $navbarBackgroundHighlight: #571227;
 }
 
 .navbar {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 
   .nav > li > a {
     color: #fbb6af;
@@ -31,39 +32,6 @@ $navbarBackgroundHighlight: #571227;
 .social-networks {
   padding-top: 15px;
 }
-
-/*
-.nav {
-  font-size: 25px;
-  top:90px;
-}
-
-.navbar {
-  margin-bottom: 0px;
-
-  .nav > li > a {
-    color: #fbb6af;
-  }
-
-}
-
-.hero-unit {
-  background-color: #fbb6af;
-  font-color: #571227;
-  margin-bottom: 10px;
-}
-
-#social-networks {
-  padding-top: 25px;
-}
-
-#conteudo {
-  padding-top:5px;
-  margin-top:0px;
-  padding-bottom:0px;
-  margin-bottom:0px;
-}
-*/
 
 /* footer */
 footer {
