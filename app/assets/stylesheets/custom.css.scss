@@ -8,7 +8,6 @@ $navbarBackgroundHighlight: #571227;
 
 @import "bootstrap";
 
-/* Bootstrap Customizations */
 .hero-unit {
   background-color: #fbb6af;
   font-color: #571227;
@@ -24,11 +23,6 @@ $navbarBackgroundHighlight: #571227;
 
 }
 
-.upper-bar-padding {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 .navbar-inner {
   border-radius: 10px;
 }
@@ -37,9 +31,19 @@ $navbarBackgroundHighlight: #571227;
   font-size: 19px;
 }
 
+.upper-bar-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .social-networks-padding {
   padding-top: 20px;
 }
+
+.menu-padding {
+  padding-top: 55px;
+}
+
 
 /* footer */
 footer {
