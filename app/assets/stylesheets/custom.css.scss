@@ -3,14 +3,14 @@ $postItRotadion: -3deg;
 
 
 /* Bootstrap variables */
-$navbarBackground: #571227;
-$navbarBackgroundHighlight: #571227;
+$navbarBackground: #260b1e;
+$navbarBackgroundHighlight: #260b1e;
 
 @import "bootstrap";
 
 .hero-unit {
   background-color: #fbb6af;
-  font-color: #571227;
+  font-color: #260b1e;
   padding: 20px;
   border-radius: 10px;
 }
@@ -42,7 +42,7 @@ $navbarBackgroundHighlight: #571227;
 }
 
 .menu-padding {
-  padding-top: 55px;
+  padding-top: 40px;
 }
 
 
