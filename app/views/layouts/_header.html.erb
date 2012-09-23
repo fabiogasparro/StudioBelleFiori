@@ -3,7 +3,7 @@
 		<div class="navbar-inner">
 			<div class="row-fluid">
 			  <div class="span4">
-			  	<%= link_to image_tag("studiobellefiori.png", alt: "Studio Belle Fiori", class:"brand"), '#', id: "logo" %>
+			  	<%= link_to image_tag("studiobellefiori.png", alt: "Studio Belle Fiori", class:"brand"), root_path, id: "logo" %>
 			  </div>
 			  <div class="span8">
 			  	<div class="row-fluid">
@@ -24,7 +24,7 @@
 								<li><%= link_to "esmalteria", '#' %></li>
 								<li><%= link_to "estética", '#' %></li>
 								<li><%= link_to "noivas", '#' %></li>
-								<li><%= link_to "contato", '#' %></li>
+								<li><%= link_to "contato", contato_path %></li>
 							</ul>
 						</nav>
 			  	</div>

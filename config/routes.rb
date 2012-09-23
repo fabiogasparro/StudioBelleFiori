@@ -1,7 +1,12 @@
 StudioBelleFiori::Application.routes.draw do
   root to: 'Main#home'
 
-
+  match '/salao', to: 'main#salao'
+  match '/looks', to: 'main#looks'
+  match '/esmalteria', to: 'main#esmalteria'
+  match '/estetica', to: 'main#estetica'
+  match '/noivas', to: 'main#noivas'
+  match '/contato', to: 'main#contato'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

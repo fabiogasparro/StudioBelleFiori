@@ -10,9 +10,11 @@ $navbarBackgroundHighlight: #260b1e;
 
 .hero-unit {
   background-color: #fbb6af;
-  font-color: #260b1e;
   padding: 20px;
   border-radius: 10px;
+  > h1 {
+    font-size: 35px;
+  }
 }
 
 .navbar {
@@ -43,6 +45,13 @@ $navbarBackgroundHighlight: #260b1e;
 
 .menu-padding {
   padding-top: 70px;
+}
+
+.map {
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  height: 550px;
 }
 
 
@@ -78,4 +87,5 @@ footer {
 
 body {
   background-color: #fdfdec;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
