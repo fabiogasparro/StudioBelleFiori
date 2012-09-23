@@ -7,6 +7,7 @@ $navbarBackground: #260b1e;
 $navbarBackgroundHighlight: #260b1e;
 
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Carme);
 
 .hero-unit {
   background-color: #fbb6af;
@@ -30,10 +31,6 @@ $navbarBackgroundHighlight: #260b1e;
   border-radius: 10px;
 }
 
-.nav {
-  font-size: 19px;
-}
-
 .upper-bar-padding {
   padding-right: 0px;
   padding-left: 0px;
@@ -43,8 +40,10 @@ $navbarBackgroundHighlight: #260b1e;
   padding-top: 20px;
 }
 
-.menu-padding {
+.menu {
+  font-size: 19px;
   padding-top: 70px;
+  font-family: 'Carme', sans-serif;
 }
 
 .map {
