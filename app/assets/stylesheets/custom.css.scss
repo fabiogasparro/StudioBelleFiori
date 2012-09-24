@@ -1,16 +1,22 @@
 /* Declaring Variables */
 $postItRotadion: -3deg;
 
+/* Colors */
+$defaultDarkColor: #260b1e;
+$defaultLightColor: #fbb6af;
+$defaultBackgroundColor: #fdfdec;
+
 
 /* Bootstrap variables */
-$navbarBackground: #260b1e;
-$navbarBackgroundHighlight: #260b1e;
+$navbarBackground: $defaultDarkColor;
+$navbarBackgroundHighlight: $defaultDarkColor;
 
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Carme);
 
+/* Bootstrap */
 .hero-unit {
-  background-color: #fbb6af;
+  background-color: $defaultLightColor;
   padding: 20px;
   border-radius: 10px;
   > h1 {
@@ -18,19 +24,24 @@ $navbarBackgroundHighlight: #260b1e;
   }
 }
 
+.hero-unit p {
+  font-size: 16px;
+}
+
 .navbar {
   margin-bottom: 5px;
 
   .nav > li > a {
-    color: #fbb6af;
+    color: $defaultLightColor;
   }
-
 }
 
 .navbar-inner {
   border-radius: 10px;
 }
 
+
+/* Classes */
 .upper-bar-padding {
   padding-right: 0px;
   padding-left: 0px;
@@ -41,8 +52,8 @@ $navbarBackgroundHighlight: #260b1e;
 }
 
 .menu {
-  font-size: 19px;
-  padding-top: 70px;
+  font-size: 18px;
+  padding-top: 75px;
   font-family: 'Carme', sans-serif;
 }
 
@@ -53,12 +64,8 @@ $navbarBackgroundHighlight: #260b1e;
   height: 550px;
 }
 
-
-/* footer */
-footer {
-  text-align: center;
-  border-top: 1px solid #fbb6af;
-  color: #ab8992;
+.text-justified {
+  text-align: justify;
 }
 
 .post-it {
@@ -84,7 +91,15 @@ footer {
   }
 }
 
+/* HTML Elements */
+footer {
+  text-align: center;
+  border-top: 1px solid $defaultLightColor;
+  color: #ab8992;
+}
+
 body {
-  background-color: #fdfdec;
+  background-color: $defaultBackgroundColor;
   font-family: 'Carme', Verdana, Helvetica, Arial, sans-serif;
 }
+
