@@ -52,9 +52,9 @@ $navbarBackgroundHighlight: $defaultDarkColor;
 }
 
 .menu {
-  font-size: 16px;
+  font-size: 18px;
   padding-top: 75px;
-  font-family: 'Carme', sans-serif;
+  font-family: 'Carme', Verdana, Helvetica, Arial, sans-serif;
 }
 
 .map {
@@ -96,10 +96,11 @@ footer {
   text-align: center;
   border-top: 1px solid $defaultLightColor;
   color: #ab8992;
+  font-family: 'Carme', Verdana, Helvetica, Arial, sans-serif;
 }
 
 body {
   background-color: $defaultBackgroundColor;
-  font-family: 'Carme', Verdana, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
