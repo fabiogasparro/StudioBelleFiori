@@ -10,6 +10,10 @@ makup2.jpg: makup2-54ad8b08a7de2a310dcd0a3d40ed0e0c.jpg
 nails.jpg: nails-a12db97ec5d14973ccdfff03f8ba2fe7.jpg
 nova.jpg: nova-26330725e0b1e9853db58ac498ad91c9.jpg
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
+salon.jpg: salon-11edf1e4fda89d732bdde90012cd29ef.jpg
+salon.png: salon-f8ddf03975b8115aca3f00bd5e3ce55b.png
+salon2.png: salon2-e59bebc75e7664aad650d551f4982ae3.png
+salon3.png: salon3-c283ee2cd57903748cebadb640c2ffe5.png
 studio.jpg: studio-4e28139cb486c36af6cf5cb2faf7d3b4.jpg
 studiobellefiori.png: studiobellefiori-a375dcbc356bc3d0996961098ecb762f.png
 studiobellefiori2.jpg: studiobellefiori2-559f42937a823ad36f759680040964cb.jpg
@@ -21,6 +25,6 @@ wedding.jpg: wedding-623bb98d37e21cd5bc2e425cc0cc13a5.jpg
 youtube_small.png: youtube_small-dd9e71decf8f2737647d4d1fd87b8542.png
 youtube_small_highlighted.png: youtube_small_highlighted-47a87ecd5cf068f0e0790479c0fdc1b4.png
 application.js: application-28eae61cadac6aef2783a43fa33bbe86.js
-application.css: application-83a715061f653cee63de37b74c8bfeef.css
+application.css: application-e408a2b71f3df9b9c84924fef2406541.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-13553a5bf21ae3cc374006592488ec64.png
 glyphicons-halflings.png: glyphicons-halflings-f6675c325532ec11a984d58e172b8e2a.png

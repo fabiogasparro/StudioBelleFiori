@@ -25,7 +25,7 @@ $navbarBackgroundHighlight: $defaultDarkColor;
 }
 
 .hero-unit p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .navbar {
@@ -64,8 +64,19 @@ $navbarBackgroundHighlight: $defaultDarkColor;
   height: 550px;
 }
 
+.images {
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-top: 9px;
+}
+
 .text-justified {
   text-align: justify;
+}
+
+.salaoPage-text {
+  width: 495px;
 }
 
 .post-it {
