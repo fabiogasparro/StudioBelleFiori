@@ -18,6 +18,7 @@ $navbarBackgroundHighlight: $defaultDarkColor;
 .hero-unit {
   background-color: $defaultLightColor;
   padding: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   > h1 {
     font-size: 30px;
@@ -38,6 +39,10 @@ $navbarBackgroundHighlight: $defaultDarkColor;
 
 .navbar-inner {
   border-radius: 10px;
+}
+
+.carousel {
+  margin-bottom: 0px;
 }
 
 
@@ -67,7 +72,7 @@ $navbarBackgroundHighlight: $defaultDarkColor;
 .images {
   border-width: 1px;
   border-style: solid;
-  border-color: gray;
+  border-color: $defaultBackgroundColor;
   margin-top: 9px;
 }
 
@@ -75,8 +80,9 @@ $navbarBackgroundHighlight: $defaultDarkColor;
   text-align: justify;
 }
 
-.salaoPage-text {
+.salao-text {
   width: 495px;
+  text-align: justify;
 }
 
 .post-it {
